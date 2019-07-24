@@ -7,12 +7,13 @@ How to setup on Windows 10
 Kindly ensure a good internet connection and python3 installed on your pc. 
 
 1) Open the folder where the project files are located.
-3) Open the "libs.txt" file and press Ctrl + A, Ctrl + C
 2) Press Shift + right-click
-3) click on "Open PowerShell window here"
+3) click on "Open PowerShell window here" 
 a PowerShell window will open
-4) Press Ctrl + V, and press 'Enter'
+4) type "python libs.py" and press enter.
 modules will be installed one by one automatically.
+
+You have to do this step only once in your pc. 
 
 
 How to run on Windows 10
