@@ -1,5 +1,0 @@
-pip install tweepy
-pip install sklearn
-pip install nltk
-pip install matplotlib
-pip install tqdm
