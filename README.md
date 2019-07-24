@@ -10,7 +10,7 @@ Kindly ensure a good internet connection and python3 installed on your pc.
 2) Press Shift + right-click
 3) click on "Open PowerShell window here" 
 a PowerShell window will open
-4) type "python libs.py" and press enter.
+4) type "python libs.py" and press 'enter'.
 modules will be installed one by one automatically.
 
 You have to do this step only once in your pc. 
