@@ -48,7 +48,7 @@ for i in url_list:
 print("\nPlease wait...\n")
 
 def get_screen_name(url):
-    for i in range(6):
+    for i in range(len(url_list)):
         temp = url_list[i].split("/")
         screen_list.append(temp[3])
 
