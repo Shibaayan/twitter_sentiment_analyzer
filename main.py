@@ -13,18 +13,28 @@ import csv
 import collections
 import os
 
-#third party
-import nltk
-import tqdm
-import tweepy
-from sklearn.svm import LinearSVC
-import nltk.classify.util, nltk.metrics
-from nltk.metrics import precision as precision
-from nltk.metrics import recall as recall
-from nltk.metrics import f_measure as f_measure
-from nltk.classify import SklearnClassifier
-from nltk.classify import NaiveBayesClassifier
-from nltk.corpus import stopwords
+import subprocess
+
+try:
+    import nltk
+    import tqdm
+    import tweepy
+    from sklearn.svm import LinearSVC
+    import nltk.classify.util, nltk.metrics
+    from nltk.metrics import precision as precision
+    from nltk.metrics import recall as recall
+    from nltk.metrics import f_measure as f_measure
+    from nltk.classify import SklearnClassifier
+    from nltk.classify import NaiveBayesClassifier
+    from nltk.corpus import stopwords
+except Exception as e:
+    print(e)
+    subprocess.call('pip install tweepy', shell = True)
+    subprocess.call('pip install sklearn', shell = True)
+    subprocess.call('pip install nltk', shell = True)
+    subprocess.call('pip install matplotlib', shell = True)
+    subprocess.call('pip install tqdm', shell = True)
+
 
 ########################################################################################
 ########################################################################################
